@@ -1,4 +1,6 @@
 # `collection_tools` for InvokeAI (v4.0+)
+Discord Link :- [collection_tools](https://discord.com/channels/1020123559063990373/1216759622007001139)
+
 A set of InvokeAI nodes to manipulate Collections in Invoke AI workflows.
 
 Note: These are currently very experimental, especially the generic versions.
