@@ -12,6 +12,7 @@ Note: These are currently very experimental, especially the generic versions.
 - `Integer Collection Index` - Integer from a collection of Integers via index or random
 - `Float Collection Index` - Float from a collection of Floats via index or random
 - `Bool Collection Index` - Bool from a collection of Bools via index or random
+- `LoRA Collection Primitive` - Allows casting of LoRA collections so it can be passed to an iterate node
 
 ## Usage
 ### <ins>Install</ins><BR>
