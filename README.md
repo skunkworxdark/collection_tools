@@ -14,6 +14,15 @@ Note: These are currently very experimental, especially the generic versions.
 - `Bool Collection Index` - Bool from a collection of Bools via index or random
 - `LoRA Collection Primitive` - Allows casting of LoRA collections so it can be passed to an iterate node
 
+Extension nodes of base collection primitive nodes - these allow creating collections without using a collect node. This enables them to be used with a loop of an `iterate` node without collecting everything from all the iterations.
+- `Boolean Collection Primitive Linked`
+- `Conditioning Collection Primitive Linked`
+- `Float Collection Primitive Linked`
+- `Image Collection Primitive Linked`
+- `Integer Collection Primitive Linked`
+- `Latents Collection Primitive Linked`
+- `String Collection Primitive Linked`
+
 ## Usage
 ### <ins>Install</ins><BR>
 There are two options to install the nodes:
