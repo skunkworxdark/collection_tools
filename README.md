@@ -13,6 +13,7 @@ Note: These are currently very experimental, especially the generic versions.
 - `Float Collection Index` - Float from a collection of Floats via index or random
 - `Bool Collection Index` - Bool from a collection of Bools via index or random
 - `LoRA Collection Primitive` - Allows casting of LoRA collections so it can be passed to an iterate node
+- `Collection Join` -  Joins two collections into one. it performs no checks so be careful. 
 
 Extension nodes of base collection primitive nodes - these allow creating collections without using a collect node. This enables them to be used with a loop of an `iterate` node without collecting everything from all the iterations.
 - `Boolean Collection Primitive Linked`
@@ -22,6 +23,7 @@ Extension nodes of base collection primitive nodes - these allow creating collec
 - `Integer Collection Primitive Linked`
 - `Latents Collection Primitive Linked`
 - `String Collection Primitive Linked`
+- `LoRA Collection Primitive Linked`
 
 ## Usage
 ### <ins>Install</ins><BR>
